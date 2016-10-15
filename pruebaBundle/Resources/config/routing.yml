@@ -3,9 +3,5 @@ prueba_homepage:
     defaults: { _controller: pruebaBundle:Default:index }
 
 prueba_db:
-    path:     /db
+    path:     /{id}
     defaults: { _controller: pruebaBundle:Default:db }
-
-prueba_op:
-    path:     /op
-    defaults: { _controller: pruebaBundle:Default:op }
